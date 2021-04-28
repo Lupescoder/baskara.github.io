@@ -1,15 +1,34 @@
-body{
-    background-color:beige;
-    color:black;
-    font: normal 20pt Arial;
-}
-input {
-    font: normal 15pt Arial;
-    width: 170px;
-    height: 30px;
-    background-color: aliceblue;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-div#res {
-    color: grey;
+body {
+    margin-top: 450px;
+    text-align: center;
+    background-color: rgb(246, 253, 255);
+    color: black;
+    font: normal 20pt Arial;
+}
+
+.a,
+.b,
+.c {
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+.btn {
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.resultado {
+    color: blue;
 }
